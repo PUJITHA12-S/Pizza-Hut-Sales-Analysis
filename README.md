@@ -1,4 +1,5 @@
 # TITLE: PIZZA-HUT-SALES-ANALYSIS USING Sql and Tableau
+![Image Alt](https://github.com/PUJITHA12-S/Pizza-Hut-Sales-Analysis/blob/main/Pizza.jpeg?raw=true)
 # TABLE OF CONTENTS
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
