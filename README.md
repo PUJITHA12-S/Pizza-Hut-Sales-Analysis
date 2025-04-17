@@ -14,6 +14,31 @@ The objective of this project is to analyze Pizza Hut sales data using SQL to ex
 
 # DATA SOURCES
 https://drive.google.com/drive/folders/14IaODHUAeZX548A74cDEunsmNVL6znlc?usp=drive_link
+ The data is available in 4 csv files:
+ * 1. pizzas.csv
+ * 2. pizza_types.csv
+ * 3. orders.csv
+ * 4. Order_details.csv
+ The column description for these csv files is given below.
+ # The pizzas.csv contain following features:
+ * pizza_id: Unique identifier for each specific pizza variant.
+ * pizza_type_id: Identifier linking to the pizza type (matches with pizza_types.csv).
+ * size: Size of the pizza (e.g., S for Small, M for Medium, L for Large).
+ * price: Price of the pizza based on its size.
+# The pizza_types.csv contain following features:
+ * pizza_type_id: Unique identifier for each pizza type.
+ * name: Name of the pizza type.
+ * category: Category of the pizza (e.g., Chicken, Veggie).
+ * ingredients: List of ingredients used in this pizza type.
+ # The orders.csv contain following features:
+ * order_id: Unique identifier for each order.
+ * date: Date when the order was placed.
+ * time: Time when the order was placed
+# The order_details.csv contain following features:
+ * order_details_id: Unique identifier for each entry in the order details.
+ * order_id: Identifier linking this detail to a specific order (matches with orders.csv).
+ * pizza_id: Identifier of the pizza ordered (matches with pizzas.csv).
+ * quantity: Number of each pizza type ordered in this entry.
 
 # TOOLS
 - EXCEL- Data Cleaning
